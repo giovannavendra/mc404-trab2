@@ -11,6 +11,10 @@ void busca_parede(){
   if(i<600){
     motors[0].speed=0;
     motors[1].speed=0;
+
+
+
+    
     set_motors_speed(&motors[0], &motors[1]);
   }
   while(1);
